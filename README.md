@@ -6,11 +6,21 @@
 # GraphQL-Hackernews-Experiment
 > Playing around with GraphQL, Apollo and React
 
-Will add more info soon.
+### With the experiment you can:
+
+* Signup and login
+* Add links with descriptions
+* Vote links up on the page
+* Use pagination to browse through the pages
 
 ### To run this project
 
 * Clone the repo
-* Run `yarn` in the root folder to download the dependencies
-* Run `yarn` in the server folder
-* Run `yarn start` 
+* Cd into the server folder
+* Run `yarn install`
+* Run `yarn prisma deploy`
+* Edit the Prisma API endpoint in `server/src/index.js`  (Run `yarn prisma info` if you've lost it)
+* Run `yarn install` in the root folder to download the dependencies
+* Run `yarn start`
+
+Find the How to GraphQL tutorial [here](https://www.howtographql.com/react-apollo/0-introduction/)
